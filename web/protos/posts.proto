@@ -1,0 +1,9 @@
+syntax = "proto3";
+package blog;
+
+message BlogPost {
+  string blog_id = 1;
+
+}
+
+
