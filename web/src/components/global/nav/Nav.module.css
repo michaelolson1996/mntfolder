@@ -1,0 +1,108 @@
+
+#global_nav__header_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.8rem;
+    padding: 0 2rem;
+    max-width: 90rem;
+    margin: auto;
+    background-color: var(--bg-none)
+}
+
+#global_nav__header_title_wrap {
+    width: 14em
+}
+
+#global_nav__header_title {
+    color: var(--theme-high)
+}
+
+#global_nav__header_nav_wrap {
+    text-decoration: none;
+    font-size: 1.5rem
+}
+
+#close_submenu_icon {
+    display: none;
+    height: 1.7em;
+    width: 1.7em;
+    background: var(--xmark-icon) center no-repeat
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap
+}
+
+.global_nav__header_nav_button_wrap {
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 5px
+}
+
+.global_nav__header_nav_buttons {
+    font-size: 0.75em;
+    text-decoration: none;
+    transition: color .6s
+}
+
+.global_nav__header_nav_buttons_text {
+    font-size: 0.75em;
+    text-decoration: none;
+    color: var(--theme-medium);
+    transition: color .6s
+}
+
+.global_nav__header_nav_buttons_text:hover {
+    color: var(--theme-text-hover)
+}
+
+.global_nav__header_nav_dropdown_wrap {
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute
+}
+
+.global_nav__header_nav_dropdown_button_wrap {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.global_nav__header_nav_dropdown_button:hover .global_nav__header_nav_dropdown_wrap {
+    display: block
+}
+
+#global_nav__header_options_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 14rem;
+    margin-top: .5em;
+}
+
+#global_nav__header_options_login_button {
+    color: var(--theme-high);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 2em
+}
+
+#global_nav__header_options_login_button:hover {
+    color: var(--theme-text-hover);
+}
+
+#global_nav__header_options_search_icon {
+    cursor: pointer
+}
+

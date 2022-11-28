@@ -1,0 +1,151 @@
+
+#global_search__wrap {
+    display: block
+}
+
+#global_search__wrap.open {
+    display: block
+}
+
+#global_search__overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(0,0,0,0.35);
+    z-index: 9;
+    overflow-x:hidden;
+    overflow-y: auto;
+    padding: 3em;
+}
+
+#global_search__body {
+    max-width: 95%;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: var(--emphasis-bg-high);
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+}
+
+#global_search__top_section_search_icon,
+#global_search__top_section_close_icon,
+#global_search__top_section {
+    height: 3.53rem;
+}
+
+#global_search__top_section_search_icon_button,
+#global_search__top_section_close_icon_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.53rem
+}
+
+#global_search__top_section_close_icon_button {
+    border: none;
+    background-color: var(--emphasis-bg-high);
+    cursor: pointer;
+}
+
+#global_search__top_section {
+    border-bottom: 1px solid var(--theme-medium);
+    display: flex;
+    width: 100%;
+}
+
+#global_search__top_section_form,
+#global_search__top_section_label,
+#global_search__top_section_wrap {
+    width: inherit;
+}
+
+#global_search__top_section_label {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#global_search__top_section_input {
+    background-color: var(--emphasis-bg-high);
+    outline: none;
+    border: none;
+    color: var(--theme-high);
+    font-size: 1.2em;
+    flex:auto;
+}
+
+#global_search__top_section_search_icon {
+    background: var(--search-icon) center no-repeat;
+    width:1.2em
+}
+
+#global_search__top_section_close_icon {
+    background: var(--xmark-icon) center no-repeat;
+    pointer-events: none;
+    height: 1.6em;
+    width:1.6em;
+}
+
+#global_search__filters_nav {
+    width: 3.53rem;
+    height:auto;
+    position: absolute;
+    right:0;
+    top: 4.53em;
+    margin:0;
+}
+
+.global_search__filters_nav_dropdown_buttons,
+#global_search__filters_nav_button {
+    width: 3.53rem;
+    height: 3.53rem;
+    background-color: var(--emphasis-bg-high);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.global_search__filters_nav_dropdown_icons {
+    height:1.6em;
+    width: 1.6em;
+}
+
+#global_search__filters_nav_filter_button {
+    background: var(--filters-icon) center no-repeat;
+}
+
+#global_search__filters_nav_tags_button {
+    background: var(--tags-icon) center no-repeat;
+}
+
+#global_search__filters_nav_authors_button {
+    background: var(--authors-icon) center no-repeat;
+}
+
+#global_search__filters_nav_dates_button {
+    background: var(--date-icon) center no-repeat;
+}
+
+
+
+
+
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}

@@ -1,0 +1,13 @@
+
+#newpost_main__wrap {
+    width: 100vw;
+    height: auto;
+    margin-top: 2.8rem;
+}
+
+#newpost_main__edit_section {
+    width: 54rem;
+    height: 200px;
+    margin: auto;
+    color: var(--theme-high)
+}
