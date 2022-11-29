@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'montserrat';
   src: url('/Montserrat-Light.ttf');
 }
@@ -89,7 +89,7 @@ html {
   --date-icon: url("../calendar-solid.svg");
   --filters-icon: url("../filter-solid.svg") */
 
-  --filters-icon: url('/icons/filter-solid.svg');
+  /* --filters-icon: url('/icons/filter-solid.svg');
   --tags-icon: url('/icons/tags-solid.svg');
   --authors-icon: url('/icons/user-solid.svg');
   --date-icon: url('/icons/calendar-solid.svg');
@@ -106,9 +106,9 @@ html {
   --search-icon: url("../magnifying-glass-solid-light.svg");
   --hamburger-icon: url("../bars-solid-light.svg");
   --xmark-icon: url("../xmark-solid-light.svg"); */
-  --theme-line: rgba(230,230,230, 1);
+  /* --theme-line: rgba(230,230,230, 1);
   --emphasis-bg-high: rgba(45,45,45,1);
   --search-icon: url('/magnifying-glass-solid-light.svg');
   --xmark-icon: url('/xmark-solid-light.svg')
 
-}
+/* } */

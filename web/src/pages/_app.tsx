@@ -1,10 +1,20 @@
-import '../styles/globals.css';
-import { ThemeProvider } from '../context/theme-context';
+"use strict";
+
+// mui imports
+import { 
+  CssBaseline, 
+  ThemeProvider 
+} from "@mui/material";
+
+// local imports
 import Layout from './layout';
+import getTheme from '../shared/styles/theme';
+
 
 function MyApp({ Component, pageProps }) {
   return (
-      <ThemeProvider>
+      <ThemeProvider theme={getTheme(true)}>
+        <CssBaseline />
         <Layout>
           <Component {...pageProps} />
         </Layout>

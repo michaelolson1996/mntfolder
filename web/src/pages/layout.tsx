@@ -8,7 +8,7 @@ export default function Layout({ children }) {
 
   return (
     <>
-        <Nav toggleSearch={setSearching} />
+        <Nav />
 
         {
           isSearching ? <Search toggleSearch={setSearching} /> : <></>

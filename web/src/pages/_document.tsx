@@ -1,16 +1,18 @@
-import { Html, Head, Main, NextScript } from 'next/document';
-import ThemeScriptTag from '../components/ThemeScriptTag';
-import Layout from './layout';
+"use strict";
 
-export default function Document() {
+// next imports
+import { Html, Head, Main, NextScript } from 'next/document';
+
+const Document = (): JSX.Element => {
   return (
-    <Html>
+    <Html lang={"en"}>
       <Head />
       <body>
-        <ThemeScriptTag />
-          <Main />
+        <Main />
         <NextScript />
       </body>
     </Html>
   );
 };
+
+export default Document;
